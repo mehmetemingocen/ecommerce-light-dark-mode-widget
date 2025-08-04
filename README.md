@@ -125,14 +125,6 @@ CSS dosyasında `:root` ve `.dark-mode` seçicilerindeki renk değerlerini deği
 - Android Chrome 60+
 - Responsive tasarım tüm mobil cihazlarda çalışır
 
-## 🔮 Gelecek Özellikler
-
-- [ ] Sepet sayfası
-- [ ] Ürün detay sayfası
-- [ ] Kullanıcı hesabı
-- [ ] Ödeme sistemi
-- [ ] Ürün kategorileri
-- [ ] Filtreleme seçenekleri
 
 ## 📄 Lisans
 
