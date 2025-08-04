@@ -1,4 +1,4 @@
-# TechStore - Modern E-commerce Web Sitesi
+# E-commerce Light Dark Mode Widget
 
 Modern bir e-commerce web sitesi örneği. Dark/Light mode özelliği, responsive tasarım ve interaktif özellikler içerir.
 
