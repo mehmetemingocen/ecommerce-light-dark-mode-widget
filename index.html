@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Modern E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>techmarkt.com.tr</h1>
+                </div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#" class="nav-link">Ana Sayfa</a></li>
+                        <li><a href="#" class="nav-link">Ürünler</a></li>
+                        <li><a href="#" class="nav-link">Kategoriler</a></li>
+                        <li><a href="#" class="nav-link">İletişim</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Ürün ara..." class="search-input">
+                        <button class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">3</span>
+                    </div>
+                    
+                    <!-- Dark/Light Mode Toggle -->
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-sun light-icon"></i>
+                        <i class="fas fa-moon dark-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">En Yeni Teknoloji Ürünleri</h2>
+                <p class="hero-description">Kaliteli ve uygun fiyatlı elektronik ürünler için doğru adrestesiniz.</p>
+                <button class="cta-button">Alışverişe Başla</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2 class="section-title">Öne Çıkan Ürünler</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/4a90e2/ffffff?text=Laptop" alt="Laptop">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Gaming Laptop</h3>
+                        <p class="product-description">Yüksek performanslı gaming laptop</p>
+                        <div class="product-price">₺15,999</div>
+                        <button class="add-to-cart-btn">Sepete Ekle</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/50c878/ffffff?text=Phone" alt="Phone">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Akıllı Telefon</h3>
+                        <p class="product-description">Son model akıllı telefon</p>
+                        <div class="product-price">₺8,499</div>
+                        <button class="add-to-cart-btn">Sepete Ekle</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/ff6b6b/ffffff?text=Headphones" alt="Headphones">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Kablosuz Kulaklık</h3>
+                        <p class="product-description">Noise cancelling kulaklık</p>
+                        <div class="product-price">₺1,299</div>
+                        <button class="add-to-cart-btn">Sepete Ekle</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/ffa500/ffffff?text=Tablet" alt="Tablet">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Tablet</h3>
+                        <p class="product-description">10 inç tablet bilgisayar</p>
+                        <div class="product-price">₺4,999</div>
+                        <button class="add-to-cart-btn">Sepete Ekle</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/9c27b0/ffffff?text=Watch" alt="Smartwatch">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Akıllı Saat</h3>
+                        <p class="product-description">Fitness takip özellikli</p>
+                        <div class="product-price">₺2,499</div>
+                        <button class="add-to-cart-btn">Sepete Ekle</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/607d8b/ffffff?text=Speaker" alt="Speaker">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Bluetooth Hoparlör</h3>
+                        <p class="product-description">Taşınabilir kablosuz hoparlör</p>
+                        <div class="product-price">₺899</div>
+                        <button class="add-to-cart-btn">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechStore</h3>
+                    <p>Kaliteli teknoloji ürünleri için güvenilir adresiniz.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">İletişim</a></li>
+                        <li><a href="#">Kargo Takip</a></li>
+                        <li><a href="#">İade Koşulları</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Müşteri Hizmetleri</h4>
+                    <ul>
+                        <li><a href="#">Sık Sorulan Sorular</a></li>
+                        <li><a href="#">Canlı Destek</a></li>
+                        <li><a href="#">Şikayet/Öneri</a></li>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Bizi Takip Edin</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechStore. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
