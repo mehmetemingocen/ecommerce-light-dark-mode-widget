@@ -140,4 +140,5 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 
 ---
 
-**TechStore** - Modern E-commerce deneyimi için tasarlanmış responsive web sitesi. 
+Modern E-commerce deneyimi için tasarlanmış responsive web sitesi widgetı.
+Responsive website widget designed for modern e-commerce experience.
