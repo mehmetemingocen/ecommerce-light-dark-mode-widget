@@ -141,4 +141,5 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 ---
 
 Modern E-commerce deneyimi için tasarlanmış responsive web sitesi widgetı.
+
 Responsive website widget designed for modern e-commerce experience.
